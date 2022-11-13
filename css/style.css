@@ -1,0 +1,54 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	display: block;
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+body {
+	padding: 100px;
+	min-height: 100vh;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: sans-serif;
+	color: rgb(0, 58, 247);
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.container {
+	text-align: center;
+	padding: 25px;
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 32px;
+	color: rgb(38, 0, 255);
+}
