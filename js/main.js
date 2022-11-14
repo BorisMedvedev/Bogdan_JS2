@@ -464,4 +464,4 @@ for (const iterator of myArray9) {
 }
 
 // ******************************** Модули *******************************************
-// node js создаем папку cd Desktop команда mkdir modules
+// node js создаем папку cd Desktop команда mkdir modu
